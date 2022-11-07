@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* header section  */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +16,18 @@ body {
     color: #ffffff;
 }
 
+/* 'hori' + 'n' in header at top left of the page */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* 'seo' in header at top left of the page */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* navigation bar */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +36,25 @@ body {
     font-size: 20px;
 }
 
-.header nav ul {
-    list-style-type: none;
-}
-
+/* navigation bar links */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
+    list-style-type: none;
 }
 
+/* links for the entire page */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* paragraph sections for the entire page */
 p {
     font-size: 16px;
 }
 
+/* hero image under navigation bar */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +64,48 @@ p {
     background-position: center;
 }
 
-.float-left {
+/* SEO and SMM image placement */
+.seoimg,
+.smmimg {
     float: left;
     margin-right: 25px;
 }
 
-.float-right {
+/* ORM img placement */
+.ormimg {
     float: right;
     margin-left: 25px;
 }
 
+/* main section  */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* individual section containers in the main content section */
+.content section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* images in the main content section */
+.content img {
+    max-height: 200px;
+}
+
+/* headers in the main content section */
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* right aside section container */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,40 +117,26 @@ p {
     background-color: #2589bd;
 }
 
+/* individual section containers in the aside section */
 .benefits section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* headers in the right aside section */
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* images in the right aside section */
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.content section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.content img {
-    max-height: 200px;
-}
-
-.content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* footer section */
 .footer {
     padding: 30px;
     clear: both;
@@ -127,6 +144,7 @@ p {
     text-align: center;
 }
 
+/* header in the footer section */
 .footer h2 {
     font-size: 20px;
 }
