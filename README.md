@@ -1,3 +1,6 @@
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # Horiseon Website Code Refactor
 
 ## Table of Contents
@@ -21,7 +24,9 @@ GitHub Repository: [Horiseon Website Code Refactor](https://github.com/kdrummond
 
 ## Demo
 
-![screenshot]()
+![screenshot](./assets/images/horiseonscreenshot.png)
+
+![screenshot](./assets/images/horiseoncontentscreenshot.png)
 
 ## Questions 
 
@@ -30,3 +35,5 @@ Feel free to [email me](mailto:k.drummond528@gmail.com) with any questions, comm
 Checkout my [GitHub profile](https://github.com/kdrummond528)!
 
 ## License
+
+- MIT License.
